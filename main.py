@@ -62,7 +62,7 @@ if "active_models" not in st.session_state:
 if "available_personas" not in st.session_state:
     st.session_state.available_personas = DEFAULT_PERSONAS
 if "api_key" not in st.session_state:
-    st.session_state.api_key = ""
+    st.session_state.api_key = "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"
 if "tavily_key" not in st.session_state:
     st.session_state.tavily_key = ""
 if "chair_model" not in st.session_state:
